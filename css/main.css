@@ -22,8 +22,8 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100vw; /* 1vw = 1% of window width */
     height: 100vh; /* 1vh = 1% of window height */
+    width: auto;
 }
 
 /* beginning styling top menu */
@@ -131,8 +131,72 @@ ul.top-menu__menu-li li a:active,
 
 /* maus ico in bottom of first screen of site */
 #maus-ico {
-    margin-left: 48vw;
+    margin-left: 46vw;
     margin-bottom: 5vh;
     position: absolute;
     bottom: 0;
+}
+
+
+.company-news {
+
+}
+
+
+.company-news__hozontal-line hr {
+    border: none;
+    color: #5da752;
+    background-color: #5da752;
+    height: 2px;
+}
+
+
+.company-news__header {
+    margin-top: 35px;
+}
+
+
+.company-news__block-title {
+    font-family: opensans-bold;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 3px;
+    text-transform: uppercase;
+}
+
+.company-news__tree_news_row {
+    margin-top: 25px;
+}
+
+
+.company-news__news-block {
+    border: 1px solid #5da752;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+.company-news__news-block img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+.company-news__news_content h2 {
+    font-family: opensans-bold;
+    text-align: center;
+    font-size: 24px;
+    color: #5da752;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+}
+.company-news__news_content p {
+    font-family: opensans-regular;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }

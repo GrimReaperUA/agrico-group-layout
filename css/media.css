@@ -2,27 +2,92 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    .company-news__block-title {
+        font-size: 20px;
+        padding-top: 7px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    .company-news__block-title {
+        font-size: 16px;
+        padding-top: 8px;
+    }
+    .company-news__news-block img {
+        padding-right: 20px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .company-news__header {
+        margin-top: 25px;
+    }
+    .company-news__block-title {
+        font-size: 16px;
+        padding-top: 8px;
+    }
+    .company-news__tree_news_row {
+        margin-top: 20px;
+    }
+    .company-news__news-block img {
+        padding-right: 20px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .company-news__header {
+        margin-top: 12px;
+    }
+    .company-news__block-title {
+        font-size: 14px;
+        padding-top: 12px;
+    }
+    .company-news__tree_news_row {
+        margin-top: 15px;
+    }
+    .company-news__news-block img {
+        width: 100%;
+        height: auto;
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+    .company-news__news_content h2 {
+        font-size: 16px;
+    }
+    .company-news__news_content p {
+        padding-top: 10px;
+        font-size: 14px;
+    }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+    .company-news__header {
+        margin-top: 0px;
+    }
+    .company-news__block-title {
+        font-size: 12px;
+        padding-top: 12px;
+    }
+    .company-news__tree_news_row {
+        margin-top: 0px;
+    }
+    .company-news__news-block img {
+        width: 100%;
+        height: auto;
+        padding-right: 0px;
+        margin-bottom: 15px;
+    }
+    .company-news__news_content h2 {
+        font-size: 16px;
+    }
+    .company-news__news_content p {
+        padding-top: 10px;
+        font-size: 14px;
+    }
 }
 
 
