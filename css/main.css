@@ -138,8 +138,8 @@ ul.top-menu__menu-li li a:active,
 }
 
 
-.company-news {
-
+#company-news {
+    background-color: #dfeddc;
 }
 
 
@@ -152,7 +152,7 @@ ul.top-menu__menu-li li a:active,
 
 
 .company-news__header {
-    margin-top: 35px;
+    padding-top: 35px;
 }
 
 
@@ -166,13 +166,15 @@ ul.top-menu__menu-li li a:active,
 
 .company-news__tree_news_row {
     margin-top: 25px;
+    padding-bottom: 25px;
 }
 
 
 .company-news__news-block {
     border: 1px solid #5da752;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     margin-bottom: 20px;
+    background-color: #fff;
 }
 
 
@@ -199,4 +201,14 @@ ul.top-menu__menu-li li a:active,
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+
+.company-news__news_content img {
+    float: right;
+}
+
+
+.company-news__news_content img:hover {
+    float: right;
 }

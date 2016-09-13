@@ -22,7 +22,7 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     .company-news__header {
-        margin-top: 25px;
+        padding-top: 25px;
     }
     .company-news__block-title {
         font-size: 16px;
@@ -31,15 +31,15 @@
     .company-news__tree_news_row {
         margin-top: 20px;
     }
-    .company-news__news-block img {
-        padding-right: 20px;
+    .company-news__news_content img {
+        margin-right: -20px;
     }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .company-news__header {
-        margin-top: 12px;
+        padding-top: 12px;
     }
     .company-news__block-title {
         font-size: 14px;
@@ -61,12 +61,17 @@
         padding-top: 10px;
         font-size: 14px;
     }
+    .company-news__news_content img {
+        width: 40px;
+        height: 40px;
+        margin-right: 0px;
+    }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
     .company-news__header {
-        margin-top: 0px;
+        padding-top: 0px;
     }
     .company-news__block-title {
         font-size: 12px;
@@ -87,6 +92,11 @@
     .company-news__news_content p {
         padding-top: 10px;
         font-size: 14px;
+    }
+    .company-news__news_content img {
+        margin-right: 0px;
+        width: 40px;
+        height: 40px;
     }
 }
 
