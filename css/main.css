@@ -131,19 +131,20 @@ ul.top-menu__menu-li li a:active,
 
 /* maus ico in bottom of first screen of site */
 #maus-ico {
-    margin-left: 46vw;
+    margin-left: 48vw;
     margin-bottom: 5vh;
     position: absolute;
     bottom: 0;
 }
 
-
+/* maus ico in bottom of first screen of site */
 #company-news {
     background-color: #dfeddc;
 }
 
 
-.company-news__hozontal-line hr {
+.company-news__hozontal-line hr,
+.parts-catalog__hozontal-line hr {
     border: none;
     color: #5da752;
     background-color: #5da752;
@@ -151,12 +152,14 @@ ul.top-menu__menu-li li a:active,
 }
 
 
-.company-news__header {
+.company-news__header,
+.parts-catalog__header {
     padding-top: 35px;
 }
 
 
-.company-news__block-title {
+.company-news__block-title,
+.parts-catalog__block-title {
     font-family: opensans-bold;
     text-align: center;
     font-size: 24px;
@@ -211,4 +214,32 @@ ul.top-menu__menu-li li a:active,
 
 .company-news__news_content img:hover {
     float: right;
+}
+
+#parts-catalog {
+    background-color: #fff;
+}
+
+.parts-catalog__catalog-img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.parts-catalog__catalog-name {
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.parts-catalog__catalog-name a {
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #da251c;
+    display: block;
+    width: 100%;
+    font-family: opensans-regular;
+    font-size: 24px;
+    text-align: center;
 }

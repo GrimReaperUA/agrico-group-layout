@@ -2,7 +2,12 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-    .company-news__block-title {
+    .top-menu__logo img,
+    .search {
+        margin-top: 5px;
+    }
+    .company-news__block-title,
+    .parts-catalog__block-title {
         font-size: 20px;
         padding-top: 7px;
     }
@@ -10,7 +15,8 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-    .company-news__block-title {
+    .company-news__block-title,
+    .parts-catalog__block-title {
         font-size: 16px;
         padding-top: 8px;
     }
@@ -21,10 +27,16 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-    .company-news__header {
+    .top-menu__logo img,
+    .search {
+        margin-top: 0px;
+    }
+    .company-news__header,
+    .parts-catalog__header {
         padding-top: 25px;
     }
-    .company-news__block-title {
+    .company-news__block-title,
+    .parts-catalog__block-title {
         font-size: 16px;
         padding-top: 8px;
     }
@@ -34,14 +46,21 @@
     .company-news__news_content img {
         margin-right: -20px;
     }
+    .parts-catalog__catalog-name a {
+        font-size: 14px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    .company-news__header {
+    .company-news__header,
+    .parts-catalog__header {
         padding-top: 12px;
     }
-    .company-news__block-title {
+    .company-news__block-title,
+    .parts-catalog__block-title {
         font-size: 14px;
         padding-top: 12px;
     }
@@ -52,7 +71,7 @@
         width: 100%;
         height: auto;
         padding-right: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     .company-news__news_content h2 {
         font-size: 16px;
@@ -66,11 +85,21 @@
         height: 40px;
         margin-right: 0px;
     }
+    .parts-catalog__catalog-name a {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-    .company-news__header {
+    .top-menu__logo img,
+    .search {
+        margin-top: 5px;
+    }
+    .company-news__header,
+    .parts-catalog__header {
         padding-top: 0px;
     }
     .company-news__block-title {
@@ -88,6 +117,7 @@
     }
     .company-news__news_content h2 {
         font-size: 16px;
+        margin-top: 15px;
     }
     .company-news__news_content p {
         padding-top: 10px;
@@ -97,6 +127,15 @@
         margin-right: 0px;
         width: 40px;
         height: 40px;
+    }
+    .parts-catalog__block-title{
+        font-size: 11px;
+        padding-top: 12px;
+    }
+    .parts-catalog__catalog-name a {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
